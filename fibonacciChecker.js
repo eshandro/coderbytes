@@ -7,8 +7,8 @@ function fibonacciChecker(num) {
 	var test1 = 5 * Math.pow(num,2) + 4;
 	var test2 = 5 * Math.pow(num,2) - 4;
 	if (Math.sqrt(test1) % 1 === 0 || Math.sqrt(test2) % 1 === 0) return 'yes';
-	console.log('mod of sqrt of test1: ', Math.sqrt(test1) % 1)
-	console.log('mod of sqrt of test2: ', Math.sqrt(test2) % 1)
+	console.log('mod of sqrt of test1: ', Math.sqrt(test1) % 1);
+	console.log('mod of sqrt of test2: ', Math.sqrt(test2) % 1);
 	return 'no';
 }
 
